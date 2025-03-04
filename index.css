@@ -1,0 +1,12 @@
+body {
+    background-color: green;
+}
+
+.huvud {
+    color: aliceblue;
+    background-color: black;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 10px;
+}
