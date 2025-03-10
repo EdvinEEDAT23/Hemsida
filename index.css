@@ -1,12 +1,26 @@
 body {
-    background-color: green;
+    background-color: whitesmoke;
 }
 
-.huvud {
-    color: aliceblue;
-    background-color: black;
-    position: absolute;
+#huvud {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 5px;
+    
     margin-left: -10px;
     margin-top: -10px;
     padding: 10px;
+}
+
+#huvud > div {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+#toppmeny {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 500px;
+    border: 1px solid black;
 }
