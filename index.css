@@ -1,3 +1,26 @@
 body {
     background-color: whitesmoke;
 }
+
+#huvud {
+    background-color: #253821;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#toppbar {
+    display: grid;
+    grid-template-columns: 7fr 1fr 1fr 1fr;
+    margin-left: 4%;
+    padding: 0.9%;
+    color: white;
+    font-size: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
