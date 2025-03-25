@@ -49,13 +49,29 @@ a {
     padding-left: 10px;
 }
 
-#search {
-    width: 390px;
-    border-width: 1px;
+#searchbar {
+    display: grid;
+    grid-template-columns: 0.05fr 1fr;
     background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(211, 211, 211);
     margin-top: 3px;
-    padding: 10px;
     border-radius: 50px;
+    width: 405px;
+    padding-left: 25px;
+    
+}
+
+#magnifyingglas {
+    height: 23px;
+}
+
+#search {
+    width: 80%;
+    height: 25px;
+    border: none;
+    background-color: rgb(247, 247, 247);
+    padding: 15px;
+    
     
 }
 
