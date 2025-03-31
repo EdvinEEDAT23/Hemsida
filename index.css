@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: whitesmoke;
     
 }
 
@@ -50,14 +50,15 @@ a {
 }
 
 #searchbar {
-    display: grid;
-    grid-template-columns: 0.05fr 1fr;
+    
     background-color: rgb(247, 247, 247);
     border: 1px solid rgb(211, 211, 211);
-    margin-top: 3px;
+    margin: 3px 0;
     border-radius: 50px;
     width: 405px;
+    height: 40px;
     padding-left: 25px;
+    
     
 }
 
@@ -66,13 +67,12 @@ a {
 }
 
 #search {
-    width: 80%;
-    height: 25px;
+    width: 70%;
     border: none;
     background-color: rgb(247, 247, 247);
-    padding: 15px;
-    
-    
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: -10;
 }
 
 .tophögerknappar {
@@ -84,6 +84,7 @@ a {
     grid-template-columns: 1.06fr 0.1fr 0.69fr 3fr 0.5fr 0.5fr 0.5fr;
     padding-top: 15px;
     padding-left: 5.7%;
+    background-color: white;
 }
 
 
