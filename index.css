@@ -1,6 +1,6 @@
+@media screen and (min-width: 1201px) {
 body {
-    background-color: whitesmoke;
-    
+    background-color: #f7f7f0;
 }
 
 .placeholder {
@@ -14,6 +14,7 @@ body {
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
+    width: 100%;
 }
 
 #toppbar {
@@ -50,29 +51,31 @@ a {
 }
 
 #searchbar {
-    
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
     background-color: rgb(247, 247, 247);
     border: 1px solid rgb(211, 211, 211);
-    margin: 3px 0;
+    margin: 5px 0;
     border-radius: 50px;
-    width: 405px;
-    height: 40px;
+    width: 380px;
+    height: 45px;
     padding-left: 25px;
     
     
 }
 
 #magnifyingglas {
-    height: 23px;
+    height: 21.7px;
+    margin-top: 10px;
 }
 
 #search {
-    width: 70%;
+    width: 92%;
     border: none;
+    border-radius: 30px;
     background-color: rgb(247, 247, 247);
-    padding: 5px;
-    margin-left: 50px;
-    margin-top: -10;
+    padding: 14px;
+    left: 50px;
 }
 
 .tophögerknappar {
@@ -80,12 +83,109 @@ a {
 }
 
 #övre {
+    position: relative;
     display: grid;
-    grid-template-columns: 1.06fr 0.1fr 0.69fr 3fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr 0.1fr 0.6fr 3fr 0.4fr 0.3fr 0.4fr;
     padding-top: 15px;
+    left: -10px;
     padding-left: 5.7%;
     background-color: white;
 }
+}
 
+@media screen and (max-width: 800px) {
+    body {
+        background-color: #f7f7f0;
+        min-width: 320px;
+    }
+    
+    .placeholder {
+        position: relative;
+        top: 5000px;
+    }
+    
+    /* Toppbar */
+    #huvud {
+        background-color: #24422d;
+        margin-top: -10px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    
+    #toppbar {
+        display: grid;
+        grid-template-columns: 7fr 1fr 1fr 0.8fr;
+        margin-left: 4%;
+        padding: 0.9%;
+        color: white;
+        font-size: 80%;
+        font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    /* övre delen av hemsidan*/
+    #Logga {
+        width: 180px;
+    }
+    
+    #Menyknapp {
+        width: 47px;
+        padding-top: 3px;
+    }
+    
+    #Menyknapptext {
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-size: 72%;
+        letter-spacing: 0.2px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    
+    #searchbar {
+        display: grid;
+        grid-template-columns: 0.1fr 1fr;
+        background-color: rgb(247, 247, 247);
+        border: 1px solid rgb(211, 211, 211);
+        margin: 5px 0;
+        border-radius: 50px;
+        width: 380px;
+        height: 45px;
+        padding-left: 25px;
+        
+        
+    }
+    
+    #magnifyingglas {
+        height: 21.7px;
+        margin-top: 10px;
+    }
+    
+    #search {
+        width: 92%;
+        border: none;
+        border-radius: 30px;
+        background-color: rgb(247, 247, 247);
+        padding: 14px;
+        left: 50px;
+    }
+    
+    .tophögerknappar {
+        height: 50px;
+    }
+    
+    #övre {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 0.1fr 0.6fr 3fr 0.4fr 0.3fr 0.4fr;
+        padding-top: 15px;
+        left: -10px;
+        padding-left: 5.7%;
+        background-color: white;
+    }
+}
 
 
