@@ -22,11 +22,11 @@
         
         <div id="övre">
             <div ><a href="https://edvineedat23.github.io/Hemsida/"><img src="Bilder/lantbutiken-logo.png" alt="LekButiken" id="Logga"></a></div>
-            <div><a href=""><img src="Bilder/Meny.png" alt="Meny" id="Menyknapp"></a></div>
+            <div ><a href="#" ><img src="Bilder/Meny.png" alt="Meny" id="Menyknapp" onclick="openNav()"></a></div>
             <div id="Menyknapptext">VÅRA PRODUKTER</div>
             
             <div id="searchbar">
-                <div><a href=""><img src="Bilder/sök.png" alt="sök" id="magnifyingglas"></a></div>
+                <div><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="Bilder/sök.png" alt="sök" id="magnifyingglas"></a></div>
                 <div><input type="text" id="search" name="search" placeholder="Hej vad vill du söka på?"></div>
             </div>
             <!-- övre Höger hörn knappar -->
@@ -34,7 +34,39 @@
             <div><a href=""><img src="Bilder/Logga in.png" alt="LOGGA IN" class="tophögerknappar"></a></div>
             <div><a href=""><img src="Bilder/Kassa.png" alt="KASSA" class="tophögerknappar"></a></div>
         </div>
+        <div><a href=""><img src="Bilder/horseadvertisment.jpg" alt="advertisment" id="advertisment"></a></div>
         
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+          
+          
+          
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "412px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+          </script>
         <div class="placeholder">placeholder</div>
+
+        <div id="knappar">
+            <div><a href="javascript:void(0)">1</a></div>
+            <div><a href="2">2</a></div>
+            <div><a href="3">3</a></div>
+            <div><a href="4">4</a></div>
+            <div><a href="5">5</a></div>
+            <div><a href="6">6</a></div>
+            <div><a href="7">7</a></div>
+            <div><a href="8">8</a></div>
+        </div>
     </body>
 </html>
